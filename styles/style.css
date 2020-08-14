@@ -1,11 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+.container {
+  max-width: 1199px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 68px;
+  background-color: #FED100;
+  font-family: "Montserrat";
+}
+.header .header__top {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header__top .logo a {
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header .header__top .menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.header .header__top .menu li {
+  margin-right: 15px;
+}
+.header .header__top .menu a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
+.header .header__top .tel a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+.header .header__title h1 {
+  width: 480px;
+  padding: 20px 0px 10px 0px;
+  font-size: 70px;
+  font-weight: bold;
+}
+.header .header__title .title__description {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.header .header__title button {
+  margin-bottom: 130px;
+  width: 304px;
+  height: 60px;
+  font-size: 24px;
+  background: #FF352B;
+  color: #f2f2f2;
+  border: none;
+  -webkit-box-shadow: 8px 8px 0px -5px white;
+  -moz-box-shadow: 8px 8px 0px -5px white;
+  box-shadow: 8px 8px 0px -5px white;
+}
+.header .header__title .advantage {
+  max-width: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__title .advantage .advantage__item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.header .header__title .advantage .advantage__item .item__icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.header .header__title .advantage .advantage__item .item__icon img {
+  width: 100%;
+  height: 100%;
+}
+.header .header__title .advantage .advantage__item .item__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 91px;
+}
+.header .header__title .advantage .advantage__item .item__text p {
+  width: 100%;
+}
+.header .header__car {
+  z-index: 10;
+  position: absolute;
+  bottom: 25%;
+  right: 10%;
+}
+.header .header__man {
+  z-index: 11;
+  position: absolute;
+  bottom: 0px;
+  right: 30%;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-color: #c3c3c3;
 }
 
 /*# sourceMappingURL=style.css.map */
