@@ -1,0 +1,186 @@
+.main{
+  font-family: 'Montserrat';
+  .container{
+    .stages{
+      flex-direction: column;
+      align-items: center;
+      .stages__title{
+        text-align: center;
+        padding:95px 0px 66px 0px;
+        font-size:30px;
+      }
+      .stages__item-wrapper{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 100px;
+        width:100%;
+        flex-wrap:wrap;
+        .stages__item{
+          color: #333333;
+          display: flex;
+          flex-basis:40%;
+          margin:0px auto 77px;
+          .item__num{
+            font-size:50px;
+            margin-right: 42px;
+          }
+          .item__text{
+            h3{
+              font-size:20px;
+              padding-bottom: 15px;
+            }
+            p{
+              max-width: 100%;
+              font-size:16px;
+            }
+          }
+        }
+      }
+    }
+    .prices{
+      padding-bottom: 62px;
+      .prices__title{
+        text-align: center;
+        margin-bottom: 50px;
+        h3{
+          font-size:30px;
+          padding-bottom: 15px;
+        }
+        p{
+          font-size:24px;
+        }
+      }
+      .card-wrap{
+        width:100%;
+        display:flex;
+        justify-content: space-between;
+        .card{
+          &:hover{
+            cursor: pointer;
+            border-color: #FED100;
+          }
+          display:flex;
+          border: 1px solid #EBEBEB;
+          transition: .3s ease;
+          flex-direction: column;
+          align-items: center;
+          flex-basis: 32%;
+          p{
+            font-size:24px;
+            font-weight: bold;
+            margin:84px auto 60px;
+          }
+          span{
+            font-size:16px;
+            margin-bottom: 25px;
+          }
+          strong{
+            font-size:30px;
+            padding:45px 0 52px;
+          }
+          button{
+            color:#333333;
+            background-color: #FED100;
+            padding:14px 70px;
+            margin-bottom: 78px;
+            border:none;
+            cursor: pointer;
+            color: #333333;
+            font-size:20px;
+            outline:none;
+          }
+        }
+      }
+    }
+    .auto{
+      &__title{
+        text-align: center;
+        h3{
+          padding:35px 0px 15px;
+          font-size:30px;
+        }
+        p{
+          font-weight: bold;
+          font-size:24px;
+          padding-bottom: 60px;
+        }
+      }
+      .slider__wrap{
+        width:80%;
+        margin: 0 auto;
+      }
+      &__slider{
+
+        width:100%;
+        margin: 0 auto;
+        .slider__title{
+          width:60%;
+          display: flex;
+          justify-content: space-between;
+          margin: 0 auto;
+          padding-bottom: 65px;
+          a{
+            font-size:20px;
+            padding:15px 64px;
+            color:#333333;
+            border:1px solid #f2f2f2;
+            text-decoration: none;
+            transition: .3s;
+            &:hover{
+              border-color:#FED100;
+            }
+          }
+        }
+        .slide{
+          display: flex;
+          justify-content: space-between;
+          .feature{
+            display: flex;
+            flex-basis: 40%;
+
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+            height: 100%;
+            p{
+              font-size:24px;
+              font-weight: bold;
+              padding:100px 0px 37px;
+            }
+            span{
+              margin-left:20px;
+              padding-bottom: 28px;
+              position: relative;
+              &::after{
+                content: "";
+                position: absolute;
+                background-image: url(../image/main/slider/check.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 15px;
+                color: #000000;
+                height: 15px;
+                left: -18px;
+                top: 0%;
+              }
+            }
+            button{
+              color:#333333;
+              background-color: #FED100;
+              padding:14px 70px;
+              margin-bottom: 78px;
+              border:none;
+              cursor: pointer;
+              color: #333333;
+              font-size:20px;
+              outline:none;
+            }
+          }
+          .automobile{
+            flex-basis: 60%;
+          }
+        }
+      }
+    }
+  }
+}

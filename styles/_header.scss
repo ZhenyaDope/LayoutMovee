@@ -20,9 +20,12 @@
       display: flex;
       list-style: none;
       justify-content: space-between;
+
       li {
         margin-right:15px;
-        // TODO: Разобраться с отступом
+        &:last-child{
+          margin-right: 0px ;
+        }
       }
       a{
         text-decoration: none;
