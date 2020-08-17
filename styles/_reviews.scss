@@ -1,0 +1,78 @@
+.reviews{
+  font-family: Montserrat;
+  width:100%;
+  padding-top: 100px;
+  padding-bottom: 94px;
+  background-color: #FED100;
+
+  .container{
+    .comment{
+      .comment__title{
+        text-align: center;
+        font-size:30px;
+        padding-bottom: 60px;
+      }
+      .comment__wrapper{
+        display: flex;
+        width:100%;
+        align-items: center;
+        justify-content: space-between;
+        .comment__item{
+          flex-basis: 32%;
+          height: 340px;
+          h5{
+            font-size: 24px;
+            padding-bottom: 10px;
+          }
+          span{
+            position: relative;
+            font-size:16px;
+            &::before{
+              content: "";
+              position: absolute;
+              right: -20px;
+              top: 0px;
+              background: url(../image/reviews/star.png);
+              width: 15px;
+              height: 15px;
+            }
+          }
+          p{
+            overflow: hidden;
+            line-height: 21px;
+            max-width: 420px;
+            padding-top:19px;
+            margin-bottom: 18px;
+            font-size:16px;
+            //padding-bottom: 18px;
+            max-height: 200px;
+            display: block;
+            display: -webkit-box;
+            -webkit-line-clamp:8; /* количество строк */
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+          }
+          a{
+            margin-top:18px;
+            font-size:16px;
+            color:#333333;
+          }
+        }
+      }
+      .comment__btn{
+        padding-top:60px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        a{
+          font-size:20px;
+          text-decoration: none;
+          padding:13px 64px;
+          border:1px solid #333333;
+          color:#333333;
+        }
+      }
+    }
+  }
+}
