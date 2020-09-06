@@ -177,6 +177,11 @@
           }
           .automobile{
             flex-basis: 60%;
+            display: flex;
+            align-items: center;
+            img{
+              max-width: 100%;
+            }
           }
         }
       }

@@ -1,0 +1,180 @@
+.main .container .stages {
+  flex-direction: column;
+  align-items: center;
+}
+.main .container .stages .stages__title {
+  text-align: center;
+  padding: 95px 0px 66px 0px;
+  font-size: 30px;
+}
+.main .container .stages .stages__item-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.main .container .stages .stages__item-wrapper .stages__item {
+  color: #333333;
+  display: flex;
+  flex-basis: 40%;
+  margin: 0px auto 77px;
+}
+.main .container .stages .stages__item-wrapper .stages__item .item__num {
+  font-size: 50px;
+  margin-right: 42px;
+}
+.main .container .stages .stages__item-wrapper .stages__item .item__text h3 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.main .container .stages .stages__item-wrapper .stages__item .item__text p {
+  max-width: 100%;
+  font-size: 16px;
+}
+.main .container .prices {
+  padding-bottom: 62px;
+}
+.main .container .prices .prices__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.main .container .prices .prices__title h3 {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.main .container .prices .prices__title p {
+  font-size: 24px;
+}
+.main .container .prices .card-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .container .prices .card-wrap .card {
+  display: flex;
+  border: 1px solid #EBEBEB;
+  transition: 0.3s ease;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 32%;
+}
+.main .container .prices .card-wrap .card:hover {
+  cursor: pointer;
+  border-color: #FED100;
+}
+.main .container .prices .card-wrap .card p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 84px auto 60px;
+}
+.main .container .prices .card-wrap .card span {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.main .container .prices .card-wrap .card strong {
+  font-size: 30px;
+  padding: 45px 0 52px;
+}
+.main .container .prices .card-wrap .card button {
+  color: #333333;
+  background-color: #FED100;
+  padding: 14px 70px;
+  margin-bottom: 78px;
+  border: none;
+  cursor: pointer;
+  color: #333333;
+  font-size: 20px;
+  outline: none;
+}
+.main .container .auto__title {
+  text-align: center;
+}
+.main .container .auto__title h3 {
+  padding: 35px 0px 15px;
+  font-size: 30px;
+}
+.main .container .auto__title p {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 60px;
+}
+.main .container .auto .slider__wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+.main .container .auto__slider {
+  width: 100%;
+  margin: 0 auto;
+}
+.main .container .auto__slider .slider__title {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 65px;
+}
+.main .container .auto__slider .slider__title a {
+  font-size: 20px;
+  padding: 15px 64px;
+  color: #333333;
+  border: 1px solid #f2f2f2;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.main .container .auto__slider .slider__title a:hover {
+  border-color: #FED100;
+}
+.main .container .auto__slider .slide {
+  display: flex;
+  justify-content: space-between;
+}
+.main .container .auto__slider .slide .feature {
+  display: flex;
+  flex-basis: 40%;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+}
+.main .container .auto__slider .slide .feature p {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 100px 0px 37px;
+}
+.main .container .auto__slider .slide .feature span {
+  margin-left: 20px;
+  padding-bottom: 28px;
+  position: relative;
+}
+.main .container .auto__slider .slide .feature span::after {
+  content: "";
+  position: absolute;
+  background-image: url(../image/main/slider/check.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15px;
+  color: #000000;
+  height: 15px;
+  left: -18px;
+  top: 0%;
+}
+.main .container .auto__slider .slide .feature button {
+  color: #333333;
+  background-color: #FED100;
+  padding: 14px 70px;
+  margin-bottom: 78px;
+  border: none;
+  cursor: pointer;
+  color: #333333;
+  font-size: 20px;
+  outline: none;
+}
+.main .container .auto__slider .slide .automobile {
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+.main .container .auto__slider .slide .automobile img {
+  max-width: 100%;
+}
